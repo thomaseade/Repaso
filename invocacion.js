@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var condicionales_1 = require("./condicionales");
+var buclesFor_1 = require("./buclesFor");
+var array1 = ["mesa", "silla", "sofa", "cama"];
+var array2 = ["arbol", "planta", "cesped", "trigo"];
+var array3 = ["casa", "feria", "salir", "entrar"];
+var suma1 = (0, buclesFor_1.add)(array1);
+var suma2 = (0, buclesFor_1.add)(array2);
+var suma3 = (0, buclesFor_1.add)(array3);
+(0, condicionales_1.isEven)(suma1);
+(0, condicionales_1.isEven)(suma2);
+(0, condicionales_1.isEven)(suma3);
